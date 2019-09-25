@@ -1,0 +1,15 @@
+
+.welcome_title{
+	font-size: 38rpx;
+	margin: 20rpx 40rpx;
+}
+.welcome_content{
+	font-size: 38rpx;
+	margin: 20rpx 40rpx;
+}
+.page_title{
+	color: #6666FF;
+	font-size: 44rpx;
+	font-weight: bold;
+}
+

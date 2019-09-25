@@ -1,0 +1,7 @@
+
+.title{
+	font-size: 26px;
+	margin: 40rpx 20rpx 20rpx 40rpx;
+	color: #6666FF;
+}
+

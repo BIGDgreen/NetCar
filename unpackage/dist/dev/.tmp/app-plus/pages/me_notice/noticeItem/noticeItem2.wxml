@@ -1,0 +1,1 @@
+<view class="page" bind:__l="__l"><view class="noticeItem-wrapper"><view class="noticeTitle">您请求加入的约单没有得到回应</view><view class="noticeContent">{{"该约单约单号为："+orderNum}}</view><view class="footer">尝试在<text data-event-opts="{{[['tap',[['to_main']]]]}}" class="to_main" bindtap="__e">首页</text>中查找其他约单吧！</view></view></view>

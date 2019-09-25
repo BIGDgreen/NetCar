@@ -1,0 +1,117 @@
+.page{
+	background: white;
+}
+.me_login{
+	background: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.avatar-wrapper{
+	margin: 0 auto;
+	margin-top: 260rpx;
+}
+.avatar{
+	width: 150rpx;
+	height: 150rpx;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+/* input */
+.input-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin: 80rpx auto;
+}
+.name-wrapper,.password-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin-bottom: 40rpx;
+}
+.name-input,.password-input{
+	border: 1px solid #23202D;
+	border-radius: 10rpx;
+	padding: 2rpx 10rpx;
+}
+.name-title,.pwd-title{
+	font-weight: bold;
+}
+.btn-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.login-btn{
+	background: #6666FF;
+	color: ghostwhite;
+	border: 1px solid black;
+	width: 340rpx;
+}
+.register-btn{
+	color: #007AFF;
+	font-size: 14px;
+	margin: 0 10rpx;
+}
+button::after{
+border:none;
+}
+.othersWrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin: 40rpx auto;
+}
+.wxlogin-btn{
+	background: white;
+	padding: 0;
+	line-height:0;
+	overflow: visible;
+	border-radius:0;
+	margin-top: 23rpx;
+}
+

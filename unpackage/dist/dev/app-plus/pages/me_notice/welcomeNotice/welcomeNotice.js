@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"welcome_title{ font-size: ",[0,38],"; margin: ",[0,20]," ",[0,40],"; }\n.",[1],"welcome_content{ font-size: ",[0,38],"; margin: ",[0,20]," ",[0,40],"; }\n.",[1],"page_title{ color: #6666FF; font-size: ",[0,44],"; font-weight: bold; }\n",],undefined,{path:"./pages/me_notice/welcomeNotice/welcomeNotice.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/me_notice/welcomeNotice/welcomeNotice.wxml') } }));

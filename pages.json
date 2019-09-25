@@ -1,0 +1,167 @@
+{
+	"pages": [
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh":true
+			}
+		}
+        ,{
+            "path" : "pages/new/new",
+            "style" : {
+				"navigationBarTitleText": "新建"
+			}
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" : {
+				"navigationBarTitleText": "我的"
+			}
+        }
+        ,{
+            "path" : "pages/more/more",
+            "style" : {
+				"navigationBarTitleText": "详情"
+			}
+        },
+		{
+		    "path" : "pages/chat/chat",
+		    "style" : {
+				"navigationBarTitleText": "会话"
+			}
+		},
+		{
+		    "path" : "pages/me_notice/me_notice",
+		    "style" : {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+		    "path" : "pages/me_login/me_login",
+		    "style" : {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+		    "path" : "pages/me_register/me_register",
+		    "style" : {
+				"navigationBarTitleText": "注册"
+			}
+		}
+		,{
+		    "path" : "pages/chat/chat_item/chat_item",
+		    "style" : {
+				"navigationBarTitleText": "会话",
+				"app-plus":{
+					"softinputNavBar":"none",
+					"bounce":"none"
+				}
+			}
+		}
+		,{
+		    "path" : "pages/me_notice/welcomeNotice/welcomeNotice",
+		    "style" : {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path":"pages/me/launch_list/finishedLaunch",
+			"style" : {
+				"navigationBarTitleText": "约单"
+			}
+		},
+		{
+			"path":"pages/me/launch_list/unfinishedLaunch",
+			"style" : {
+				"navigationBarTitleText": "约单"
+			}
+		},
+		{
+			"path":"pages/me/join_list/finishedJoin",
+			"style" : {
+				"navigationBarTitleText": "约单"
+			}
+		},
+		{
+			"path":"pages/me/join_list/unfinishedJoin",
+			"style" : {
+				"navigationBarTitleText": "约单"
+			}
+		},
+		{
+			"path":"pages/me/launch_list/launchList_more",
+			"style" : {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path":"pages/me/join_list/joinList_more",
+			"style" : {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path":"pages/me/join_list/finishedJoin_more",
+			"style" : {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path":"pages/me_notice/noticeItem/noticeItem",
+			"style" : {
+				"navigationBarTitleText": "消息详情"
+			}
+		},
+		{
+			"path":"pages/me_notice/noticeItem/noticeItem2",
+			"style" : {
+				"navigationBarTitleText": "消息详情"
+			}
+		},
+		{
+			"path":"pages/me/launch_list/rate",
+			"style" : {
+				"navigationBarTitleText": "评分"
+			}
+		}
+    ],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#6666FF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#bfbfbf",
+		"selectedColor":"#515151",
+		"borderStyle":"black",
+		"backgroundColor":"#fff",
+		"list":[
+			{
+				"pagePath":"pages/main/main",
+				"text":"首页",
+				"iconPath":"static/tabBarIcos/main-before.png",
+				"selectedIconPath":"static/tabBarIcos/main-after.png"
+			},
+			{
+				"pagePath":"pages/new/new",
+				"text":"新建",
+				"iconPath":"static/tabBarIcos/more-before.png",
+				"selectedIconPath":"static/tabBarIcos/more-after.png"
+			},
+			{
+				"pagePath":"pages/chat/chat",
+				"text":"会话",
+				"iconPath":"static/tabBarIcos/chat-before.png",
+				"selectedIconPath":"static/tabBarIcos/chat-after.png"
+			}
+			,{
+				"pagePath":"pages/me/me",
+				"text":"我的",
+				"iconPath":"static/tabBarIcos/me-before.png",
+				"selectedIconPath":"static/tabBarIcos/me-after.png"
+			}
+		]
+	}
+}

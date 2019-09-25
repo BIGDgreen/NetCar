@@ -1,0 +1,116 @@
+.header{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	background: white;
+	margin: 20rpx 0;
+}
+.me-info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	margin: 40rpx;
+}
+.avatar{
+	width: 120rpx;
+	height: 120rpx;
+	border: 1rpx solid #F7F7F7;
+	border-radius: 50%;
+}
+.name-wrapper{
+	margin-left: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.name{
+	font-weight: bold;
+	font-size: 18px;
+}
+.stars{
+	margin-top:10rpx;
+}
+.edit-btn{
+	width: 60rpx;
+	height: 50rpx;
+	margin-top: 72rpx;
+	margin-right: 50rpx;
+}
+.title{
+	font-size: 26px;
+	padding: 20rpx 30rpx;
+	color: #6666FF;
+	border-bottom: 2rpx solid #C8C7CC;
+}
+.footer-btn{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;	
+	position: fixed;
+	bottom: 40rpx;
+	width: 100%;
+}
+.btn-item{
+	margin-top: 20rpx;
+	width: 90%;
+	border: 1px solid #6666FF;
+	color: #6666FF;
+}
+.sort_title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content:space-around;
+	    -ms-flex-pack:distribute;
+	        justify-content:space-around; 
+	font-size: 40rpx;
+	border-bottom: 2rpx solid #8F8F94;
+}
+.list_title{
+	padding: 12rpx 125rpx;
+	background: white;
+}
+.active{
+	color: #6666FF;
+	border-bottom: 2rpx solid #6666FF;
+}
+
+

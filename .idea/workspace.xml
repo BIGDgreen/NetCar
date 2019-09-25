@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b4ba966-c526-4ff3-8fbc-effac6fd6d8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/网约车.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/tab-nvue/mediaList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-badge/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-badge/uni-badge.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-collapse-item/uni-collapse-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-collapse/uni-collapse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-icon/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-icon/uni-icon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-list-item/uni-list-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-list/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-list/uni-list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-rate-icon/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-rate-icon/uni-icon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/uni-rate/uni-rate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/chat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/chat_item/chat_item.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat/chat_item/chat_item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/main/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/main/main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/join_list/finishedJoin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/join_list/finishedJoin_more.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/join_list/joinList_more.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/join_list/unfinishedJoin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/launch_list/finishedLaunch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/launch_list/launchList_more.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/launch_list/rate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/launch_list/unfinishedLaunch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/me.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/me.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me/tabbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_login/me_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_login/me_login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_notice/me_edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_notice/me_notice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_notice/noticeItem/noticeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_notice/noticeItem/noticeItem2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_notice/welcomeNotice/welcomeNotice.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_register/me_register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/me_register/me_register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/more/more.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/more/more.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/new/new.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/new/new.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/background/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/button/notice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/button/noticed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/button/select-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/face/Face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/face/defaultFace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/face/face_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/face/groupFace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/101.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/102.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/103.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/104.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/105.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/106.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/107.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/108.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/109.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/113.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/114.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/116.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/117.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/118.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/119.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/120.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/121.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/122.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/124.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/126.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/127.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/128.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/129.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/130.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/131.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/132.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/133.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/134.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/135.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/136.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/137.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/138.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/139.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/140.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/141.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/142.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/143.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/144.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/145.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/146.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/147.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/148.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/149.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/150.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/151.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/152.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/153.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/154.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/155.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/156.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/157.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/158.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/159.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/160.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/161.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/162.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/163.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/164.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/165.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/166.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/167.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/168.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/169.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/170.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/171.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/172.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/173.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/174.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/175.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/176.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/177.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/178.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/179.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/180.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/181.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/182.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/183.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/184.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/185.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/186.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/187.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/188.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/189.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/190.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/191.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/192.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/193.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/194.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/195.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/196.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/197.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/198.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/emoji/199.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/p10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tabBarIcos/chat-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tabBarIcos/chat-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tabBarIcos/main-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tabBarIcos/main-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tabBarIcos/me-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tabBarIcos/me-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tabBarIcos/more-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/tabBarIcos/more-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/voice/1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/voice/2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uni.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/runtime.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/common/vendor.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-badge/uni-badge.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-collapse-icon/uni-icon.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-collapse-item/uni-collapse-item.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-collapse/uni-collapse.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-icon/uni-icon.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-list-item/uni-list-item.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-list/uni-list.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-rate-icon/uni-icon.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/components/uni-rate/uni-rate.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/chat/chat.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/chat/chat_item/chat_item.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/main/main.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/join_list/finishedJoin.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/join_list/finishedJoin_more.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/join_list/joinList_more.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/join_list/join_list.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/join_list/unfinishedJoin.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/launch_list/finishedLaunch.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/launch_list/launchList_more.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/launch_list/launch_list.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/launch_list/rate.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/launch_list/unfinishedLaunch.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me/me.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_edit/face_upload/face_preview/face_preview.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_edit/face_upload/face_upload.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_edit/me_edit.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_edit/me_notice.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_edit/name_change/name_change.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_edit/welcomeNotice/welcomeNotice.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_login/me_login.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_notice/me_notice.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_notice/noticeItem/noticeItem.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_notice/noticeItem/noticeItem2.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_notice/welcomeNotice/welcomeNotice.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/me_register/me_register.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/more/more.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.sourcemap/mp-weixin/pages/new/new.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/app.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/common/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/common/main.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/common/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/common/vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-badge/uni-badge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-badge/uni-badge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-badge/uni-badge.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-badge/uni-badge.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse-item/uni-collapse-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse-item/uni-collapse-item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse-item/uni-collapse-item.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse-item/uni-collapse-item.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse/uni-collapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse/uni-collapse.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse/uni-collapse.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-collapse/uni-collapse.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-icon/uni-icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-icon/uni-icon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-icon/uni-icon.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-icon/uni-icon.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-list-item/uni-list-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-list-item/uni-list-item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-list-item/uni-list-item.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-list-item/uni-list-item.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-list/uni-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-list/uni-list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-list/uni-list.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-list/uni-list.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-rate-icon/uni-icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-rate-icon/uni-icon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-rate-icon/uni-icon.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-rate-icon/uni-icon.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-rate/uni-rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-rate/uni-rate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-rate/uni-rate.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/components/uni-rate/uni-rate.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/chat/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/chat/chat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/chat/chat.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/chat/chat.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/chat/chat_item/chat_item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/chat/chat_item/chat_item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/chat/chat_item/chat_item.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/chat/chat_item/chat_item.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/main/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/main/main.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/main/main.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/main/main.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/finishedJoin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/finishedJoin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/finishedJoin.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/finishedJoin.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/finishedJoin_more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/finishedJoin_more.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/finishedJoin_more.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/finishedJoin_more.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/joinList_more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/joinList_more.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/joinList_more.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/joinList_more.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/unfinishedJoin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/unfinishedJoin.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/unfinishedJoin.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/join_list/unfinishedJoin.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/finishedLaunch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/finishedLaunch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/finishedLaunch.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/finishedLaunch.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/launchList_more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/launchList_more.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/launchList_more.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/launchList_more.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/rate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/rate.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/rate.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/unfinishedLaunch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/unfinishedLaunch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/unfinishedLaunch.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/launch_list/unfinishedLaunch.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/me.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/me.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me/me.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_login/me_login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_login/me_login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_login/me_login.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_login/me_login.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/me_notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/me_notice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/me_notice.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/me_notice.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/noticeItem/noticeItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/noticeItem/noticeItem.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/noticeItem/noticeItem.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/noticeItem/noticeItem.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/noticeItem/noticeItem2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/noticeItem/noticeItem2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/noticeItem/noticeItem2.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/noticeItem/noticeItem2.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/welcomeNotice/welcomeNotice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/welcomeNotice/welcomeNotice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/welcomeNotice/welcomeNotice.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_notice/welcomeNotice/welcomeNotice.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_register/me_register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_register/me_register.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_register/me_register.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/me_register/me_register.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/more/more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/more/more.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/more/more.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/more/more.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/new/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/new/new.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/new/new.wxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/pages/new/new.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/background/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/button/notice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/button/noticed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/button/select-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/face/Face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/face/defaultFace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/face/face_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/face/groupFace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/101.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/102.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/103.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/104.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/105.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/106.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/107.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/108.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/109.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/113.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/114.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/116.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/117.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/118.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/119.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/120.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/121.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/122.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/124.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/126.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/127.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/128.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/129.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/130.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/131.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/132.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/133.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/134.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/135.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/136.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/137.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/138.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/139.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/140.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/141.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/142.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/143.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/144.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/145.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/146.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/147.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/148.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/149.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/150.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/151.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/152.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/153.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/154.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/155.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/156.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/157.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/158.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/159.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/160.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/161.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/162.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/163.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/164.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/165.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/166.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/167.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/168.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/169.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/170.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/171.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/172.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/173.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/174.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/175.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/176.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/177.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/178.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/179.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/180.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/181.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/182.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/183.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/184.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/185.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/186.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/187.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/188.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/189.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/190.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/191.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/192.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/193.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/194.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/195.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/196.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/197.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/198.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/emoji/199.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/p10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/img/q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/tabBarIcos/chat-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/tabBarIcos/chat-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/tabBarIcos/main-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/tabBarIcos/main-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/tabBarIcos/me-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/tabBarIcos/me-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/tabBarIcos/more-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/tabBarIcos/more-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/voice/1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/.tmp/app-plus/static/voice/2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappchooselocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappes6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappmarker@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappopenlocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniapppicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappscan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappsuccess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniapptabbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/__uniappview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/app-view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/chat/chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/chat/chat_item/chat_item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/main/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/join_list/finishedJoin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/join_list/finishedJoin_more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/join_list/joinList_more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/join_list/unfinishedJoin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/launch_list/finishedLaunch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/launch_list/launchList_more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/launch_list/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/launch_list/unfinishedLaunch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me_login/me_login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me_notice/me_notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me_notice/noticeItem/noticeItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me_notice/noticeItem/noticeItem2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me_notice/welcomeNotice/welcomeNotice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/me_register/me_register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/more/more.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/pages/new/new.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/background/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/button/notice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/button/noticed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/button/select-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/face/Face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/face/defaultFace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/face/face_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/face/groupFace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/100.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/101.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/102.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/103.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/104.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/105.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/106.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/107.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/108.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/109.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/110.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/111.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/112.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/113.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/114.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/115.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/116.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/117.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/118.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/119.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/120.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/121.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/122.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/123.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/124.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/125.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/126.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/127.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/128.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/129.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/130.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/131.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/132.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/133.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/134.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/135.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/136.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/137.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/138.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/139.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/140.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/141.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/142.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/143.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/144.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/145.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/146.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/147.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/148.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/149.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/150.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/151.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/152.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/153.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/154.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/155.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/156.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/157.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/158.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/159.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/160.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/161.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/162.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/163.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/164.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/165.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/166.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/167.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/168.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/169.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/170.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/171.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/172.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/173.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/174.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/175.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/176.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/177.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/178.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/179.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/180.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/181.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/182.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/183.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/184.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/185.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/186.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/187.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/188.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/189.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/190.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/191.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/192.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/193.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/194.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/195.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/196.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/197.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/198.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/emoji/199.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/p10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/img/q.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/tabBarIcos/chat-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/tabBarIcos/chat-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/tabBarIcos/main-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/tabBarIcos/main-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/tabBarIcos/me-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/tabBarIcos/me-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/tabBarIcos/more-after.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/tabBarIcos/more-before.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/voice/1.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/app-plus/static/voice/2.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.wxss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/project.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap19.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap24.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap28.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap29.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap35.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap40.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap41.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap44.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap46.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap49.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap50.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap52.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap61.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap62.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap65.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap71.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap76.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap77.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap86.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap89.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap93.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/sitemap99.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/error.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BigMonkeyyy" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="网约车" type="b2602c69:ProjectViewProjectNode" />
+              <item name="网约车" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="网约车" type="b2602c69:ProjectViewProjectNode" />
+              <item name="网约车" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="网约车" type="b2602c69:ProjectViewProjectNode" />
+              <item name="网约车" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b4ba966-c526-4ff3-8fbc-effac6fd6d8e" name="Default Changelist" comment="" />
+      <created>1569398928675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569398928675</updated>
+      <workItem from="1569398930217" duration="1828000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1828000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/uni.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/edit.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/uni-collapse/uni-collapse.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/error.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

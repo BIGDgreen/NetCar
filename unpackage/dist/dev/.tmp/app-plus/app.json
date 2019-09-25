@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/new/new",
+    "pages/me/me",
+    "pages/more/more",
+    "pages/chat/chat",
+    "pages/me_notice/me_notice",
+    "pages/me_login/me_login",
+    "pages/me_register/me_register",
+    "pages/chat/chat_item/chat_item",
+    "pages/me_notice/welcomeNotice/welcomeNotice",
+    "pages/me/launch_list/finishedLaunch",
+    "pages/me/launch_list/unfinishedLaunch",
+    "pages/me/join_list/finishedJoin",
+    "pages/me/join_list/unfinishedJoin",
+    "pages/me/launch_list/launchList_more",
+    "pages/me/join_list/joinList_more",
+    "pages/me/join_list/finishedJoin_more",
+    "pages/me_notice/noticeItem/noticeItem",
+    "pages/me_notice/noticeItem/noticeItem2",
+    "pages/me/launch_list/rate"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#6666FF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/tabBarIcos/main-before.png",
+        "selectedIconPath": "static/tabBarIcos/main-after.png"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "新建",
+        "iconPath": "static/tabBarIcos/more-before.png",
+        "selectedIconPath": "static/tabBarIcos/more-after.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "会话",
+        "iconPath": "static/tabBarIcos/chat-before.png",
+        "selectedIconPath": "static/tabBarIcos/chat-after.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/tabBarIcos/me-before.png",
+        "selectedIconPath": "static/tabBarIcos/me-after.png"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "网约车",
+  "compilerVersion": "1.9.4",
+  "usingComponents": {}
+}

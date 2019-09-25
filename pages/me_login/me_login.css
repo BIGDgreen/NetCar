@@ -1,0 +1,84 @@
+.page{
+	background: white;
+}
+
+.me_login{
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.avatar-wrapper{
+	margin: 0 auto;
+	margin-top: 260upx;
+}
+
+.avatar{
+	width: 150upx;
+	height: 150upx;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+/* input */
+.input-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 80upx auto;
+}
+
+.name-wrapper,.password-wrapper{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40upx;
+}
+
+.name-input,.password-input{
+	border: 1px solid #23202D;
+	border-radius: 10upx;
+	padding: 2upx 10upx;
+}
+
+.name-title,.pwd-title{
+	font-weight: bold;
+}
+
+.btn-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login-btn{
+	background: #6666FF;
+	color: ghostwhite;
+	border: 1px solid black;
+	width: 340upx;
+}
+
+.register-btn{
+	color: #007AFF;
+	font-size: 14px;
+	margin: 0 10upx;
+}
+
+button::after{
+border:none;
+}
+
+.othersWrapper{
+	display: flex;
+	flex-direction: row;
+	margin: 40upx auto;
+}
+
+.wxlogin-btn{
+	background: white;
+	padding: 0;
+	line-height:0;
+	overflow: visible;
+	border-radius:0;
+	margin-top: 23upx;
+}

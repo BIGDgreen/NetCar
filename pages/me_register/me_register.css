@@ -1,0 +1,65 @@
+.me_register{
+	background: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 80upx auto;
+}
+
+.name-wrapper,.password-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 40upx;
+}
+
+.name-wrapper{
+	margin-top: 200upx;
+}
+
+.name-input,.password-input{
+	border: 1px solid #23202D;
+	border-radius: 10upx;
+	padding: 12upx;
+}
+
+.name-title,.pwd-title{
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 8upx;
+}
+
+.btn-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login-btn{
+	background: #6666FF;
+	color: ghostwhite;
+	border: 1px solid black;
+	width: 340upx;
+}
+
+.password_again{
+	display: flex;
+	flex-direction: column;
+}
+
+.warnning{
+	color: orangered;
+	font-size: 14px;
+	margin-top: 20upx;
+}
+
+.register-btn{
+	color: #007AFF;
+	font-size: 14px;
+	margin: 40upx auto;
+}

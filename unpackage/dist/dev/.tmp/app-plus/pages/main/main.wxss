@@ -1,0 +1,280 @@
+.main{
+	background: white;
+}
+
+/* 搜索 start*/
+.search-content{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 8rpx 20rpx 0 20rpx;
+}
+
+/* 下拉搜索框 */
+.searchType_wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	border: 1px solid #23202D;
+	border-radius: 12rpx;
+	width: 180rpx;
+	height: 60rpx;
+	margin-left: 10rpx;
+	font-size: 14px;
+	margin-top: 12rpx;
+}
+.searchHeader{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 8rpx;
+}
+.searchtype{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	z-index: 100;
+	background: white;
+	border: 1px solid #23202D;
+	border-radius: 12rpx;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top: 0;
+	padding: 8rpx;
+}
+.singleType{
+	margin-top: 10rpx;
+	padding: 8rpx;
+}
+.singleType:hover{
+		background: #709bea;
+		color: #FFFFFF;
+}
+.pull_btn_wrapper{
+	margin-left: 0;
+}
+.pull_btn{
+	width: 26rpx;
+	height: 22rpx;
+}
+.uni-collapse{
+	width: 38%;
+}
+.list-num-btn{
+	border: 1px solid #23202D;
+	border-radius: 15rpx;
+	overflow: hidden;
+}
+.list-title,.list-bottom{
+	margin:20rpx;
+}
+.searchInput{
+	margin-top:10rpx;
+}
+.search-input{
+	border: 1rpx solid #23202d;
+	border-radius: 24rpx;
+	margin: 0 12rpx 12rpx 12rpx;
+	padding: 8rpx;
+	padding-left: 20rpx;
+}
+
+/* 搜索 end*/
+
+/* 列表 start*/
+.lists{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	padding: 10rpx 40rpx;
+}
+.singlelist{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	margin:20rpx 3rpx 3rpx 10rpx;
+	border-top: solid 1px #23202D;
+}
+.list-title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 12px;
+	margin-bottom: 20rpx;
+	margin-top: 20rpx;
+}
+.list-sponsor{
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.from-to{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.to{
+	font-weight: bold;
+	font-size: 22px;
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	color: #6666FF;
+}
+.list-bottom{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 12px;
+	margin-top: 20rpx;
+}
+.car-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	margin-top: 10rpx;
+}
+.car{
+	width: 68rpx;
+	height: 40rpx;
+}
+
+/* 列表 end*/
+.select-list-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.init-list-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	background: none;
+	border: none;
+}
+.select-btn{
+	width: 24rpx;
+	height: 20rpx;
+	margin-left: 10rpx;
+}
+.footer{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 12px;
+	margin-top: 12rpx;
+	margin-left: 14rpx;
+}
+

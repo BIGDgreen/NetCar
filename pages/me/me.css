@@ -1,0 +1,83 @@
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background: white;
+	margin: 20upx 0;
+	}
+	
+.me-info{
+	display: flex;
+	flex-direction: row;
+	margin: 40upx;
+}
+
+.avatar{
+	width: 120upx;
+	height: 120upx;
+	border: 1upx solid #F7F7F7;
+	border-radius: 50%;
+}
+
+.name-wrapper{
+	margin-left: 40upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.name{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.stars{
+	margin-top:10upx;
+}
+
+.edit-btn{
+	width: 60upx;
+	height: 50upx;
+	margin-top: 72upx;
+	margin-right: 50upx;
+}
+
+.title{
+	font-size: 26px;
+	padding: 20upx 30upx;
+	color: #6666FF;
+	border-bottom: 2upx solid #C8C7CC;
+}
+
+.footer-btn{
+	display: flex;
+	flex-direction: column;	
+	position: fixed;
+	bottom: 40upx;
+	width: 100%;
+}
+
+.btn-item{
+	margin-top: 20upx;
+	width: 90%;
+	border: 1px solid #6666FF;
+	color: #6666FF;
+}
+
+.sort_title{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around; 
+	font-size: 40upx;
+	border-bottom: 2upx solid #8F8F94;
+}
+
+.list_title{
+	padding: 12upx 125upx;
+	background: white;
+}
+
+.active{
+	color: #6666FF;
+	border-bottom: 2upx solid #6666FF;
+}

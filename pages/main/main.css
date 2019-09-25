@@ -1,0 +1,183 @@
+.main{
+	background: white;
+}
+
+/* 搜索 start*/
+.search-content{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 8upx 20upx 0 20upx;
+}
+
+/* 下拉搜索框 */
+.searchType_wrapper{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #23202D;
+	border-radius: 12upx;
+	width: 180upx;
+	height: 60upx;
+	margin-left: 10upx;
+	font-size: 14px;
+	margin-top: 12upx;
+}
+
+.searchHeader{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 8upx;
+}
+
+.searchtype{
+	display: flex;
+	flex-direction: column;
+	z-index: 100;
+	background: white;
+	border: 1px solid #23202D;
+	border-radius: 12upx;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top: 0;
+	padding: 8upx;
+}
+
+.singleType{
+	margin-top: 10upx;
+	padding: 8upx;
+}
+
+	.singleType:hover{
+		background: #709bea;
+		color: #FFFFFF;
+	}
+
+.pull_btn_wrapper{
+	margin-left: 0;
+}
+
+.pull_btn{
+	width: 26upx;
+	height: 22upx;
+}
+
+.uni-collapse{
+	width: 38%;
+}
+
+.list-num-btn{
+	border: 1px solid #23202D;
+	border-radius: 15upx;
+	overflow: hidden;
+}
+
+.list-title,.list-bottom{
+	margin:20upx;
+}
+
+.searchInput{
+	margin-top:10upx;
+}
+
+.search-input{
+	border: 1upx solid #23202d;
+	border-radius: 24upx;
+	margin: 0 12upx 12upx 12upx;
+	padding: 8upx;
+	padding-left: 20upx;
+}
+/* 搜索 end*/
+
+/* 列表 start*/
+.lists{
+	display: flex;
+	flex-direction: column;
+	padding: 10upx 40upx;
+}
+
+.singlelist{
+	display: flex;
+	flex-direction: column;
+	margin:20upx 3upx 3upx 10upx;
+	border-top: solid 1px #23202D;
+}
+
+.list-title{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 12px;
+	margin-bottom: 20upx;
+	margin-top: 20upx;
+}
+
+.list-sponsor{
+	justify-content: flex-end;
+}
+
+.from-to{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20upx;
+	margin-bottom: 20upx;
+}
+
+.to{
+	font-weight: bold;
+	font-size: 22px;
+	margin-left: 20upx;
+	margin-right: 20upx;
+	color: #6666FF;
+}
+
+.list-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 12px;
+	margin-top: 20upx;
+}
+
+.car-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 10upx;
+}
+
+.car{
+	width: 68upx;
+	height: 40upx;
+}
+/* 列表 end*/
+
+.select-list-wrapper{
+	display: flex;
+	flex-direction: column;
+}
+
+.init-list-wrapper{
+	display: flex;
+	flex-direction: row;
+	background: none;
+	border: none;
+}
+
+.select-btn{
+	width: 24upx;
+	height: 20upx;
+	margin-left: 10upx;
+}
+
+.footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 12px;
+	margin-top: 12upx;
+	margin-left: 14upx;
+}
+

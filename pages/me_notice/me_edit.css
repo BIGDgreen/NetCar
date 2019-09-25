@@ -1,0 +1,13 @@
+.footer-btn{
+	display: flex;
+	flex-direction: column;	
+	position: fixed;
+	bottom: 40upx;
+	width: 100%;
+}
+
+.btn-item{
+	background: white;
+	margin-top: 20upx;
+	width: 100%;
+}

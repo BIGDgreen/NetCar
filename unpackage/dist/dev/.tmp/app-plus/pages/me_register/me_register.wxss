@@ -1,0 +1,100 @@
+.me_register{
+	background: white;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.input-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin: 80rpx auto;
+}
+.name-wrapper,.password-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-bottom: 40rpx;
+}
+.name-wrapper{
+	margin-top: 200rpx;
+}
+.name-input,.password-input{
+	border: 1px solid #23202D;
+	border-radius: 10rpx;
+	padding: 12rpx;
+}
+.name-title,.pwd-title{
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 8rpx;
+}
+.btn-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.login-btn{
+	background: #6666FF;
+	color: ghostwhite;
+	border: 1px solid black;
+	width: 340rpx;
+}
+.password_again{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.warnning{
+	color: orangered;
+	font-size: 14px;
+	margin-top: 20rpx;
+}
+.register-btn{
+	color: #007AFF;
+	font-size: 14px;
+	margin: 40rpx auto;
+}
+

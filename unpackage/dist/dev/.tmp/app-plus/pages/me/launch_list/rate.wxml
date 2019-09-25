@@ -1,0 +1,1 @@
+<view class="page" bind:__l="__l"><view class="title">请对该约单的发起人进行评分：</view><view class="wrapper"><view class="rate"><uni-rate class="stars" value="{{value}}" active-color="#6666FF" size="34"></uni-rate></view></view><button data-event-opts="{{[['tap',[['confirmRate']]]]}}" class="btn" bindtap="__e">确定</button></view>
